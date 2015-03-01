@@ -1,0 +1,61 @@
+body {
+	font-family: arial, sans-serif;
+}
+.bar {
+	display: flex;
+	height: 20px;
+}
+.bar:nth-child(even) {
+	background-color: #eee;
+}
+.state {
+	/*border: solid 1px #ddd;*/
+	width: 20px;
+	position: relative;
+}
+.state .plot {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #6a4;
+}
+.state .plot {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: #6a4;
+}
+.state .plot.send {
+	border-radius: 0px;
+}
+.state .path {
+	position: absolute;
+	top: -10px;
+	left: 9px;
+	width: 2px;
+	height: 20px;
+	background-color: #6a4;
+}
+.state .promise-path {
+	position: absolute;
+	top: 9px;
+	height: 2px;
+	background-color: #6a4;
+}
+.message-streamid {
+	margin-left: 8px;
+	margin-right: 4px;
+}
+.message-send {
+	margin-right: 4px;
+}
+.message-type {
+	color: #a5a;
+	margin-right: 4px;
+}
