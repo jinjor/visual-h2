@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "gulp build",
-    "start": "nw\\node-webkit-v0.11.6-win-x64\\nw.exe .",
+    "start": "node_modules/.bin/nodewebkit .",
     "build": "gulp build",
     "watch": "gulp watch"
   },
@@ -18,6 +18,7 @@
     "ecstatic": "^0.6.0",
     "eventemitter2": "^0.4.14",
     "http2": "^3.2.0",
+    "nodewebkit": "^0.11.6",
     "object-assign": "^2.0.0",
     "react": "^0.12.2",
     "through2": "^0.6.3"
